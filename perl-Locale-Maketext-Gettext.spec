@@ -9,7 +9,7 @@ Summary:	Locale::Maketext::Gettext - Joins the gettext and Maketext frameworks
 Summary(pl):	Locale::Maketext::Gettext - ³±czenie szkieletów gettext i Maketext
 Name:		perl-Locale-Maketext-Gettext
 Version:	1.17
-Release:	0.1
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -56,6 +56,7 @@ wszystko.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
+mv -f t/00-signature.t{,.blah}
 
 %build
 %{__perl} Makefile.PL \
@@ -76,6 +77,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc BUGS Changes README
+%{_bindir}/*
 %{perl_vendorlib}/Locale/Maketext/*.pm
 %{perl_vendorlib}/Locale/Maketext/Gettext
-%{_mandir}/man3/*
+%{_mandir}/man[13]/*
