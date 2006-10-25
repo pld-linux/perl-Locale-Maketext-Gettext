@@ -77,7 +77,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc BUGS Changes README
-%{_bindir}/*
+%attr(755,root,root) %{_bindir}/*
 %{perl_vendorlib}/Locale/Maketext/*.pm
 %{perl_vendorlib}/Locale/Maketext/Gettext
 %{_mandir}/man[13]/*
