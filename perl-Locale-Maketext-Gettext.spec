@@ -6,7 +6,7 @@
 %define	pdir	Locale
 %define	pnam	Maketext-Gettext
 Summary:	Locale::Maketext::Gettext - Joins the gettext and Maketext frameworks
-Summary(pl):	Locale::Maketext::Gettext - ³±czenie szkieletów gettext i Maketext
+Summary(pl.UTF-8):   Locale::Maketext::Gettext - Å‚Ä…czenie szkieletÃ³w gettext i Maketext
 Name:		perl-Locale-Maketext-Gettext
 Version:	1.17
 Release:	1
@@ -37,21 +37,21 @@ Then, build your Maketext localization class, with your base class
 changed from Locale::Maketext(3) to Locale::Maketext::Gettext. That's
 all.
 
-%description -l pl
-Locale::Maketext::Gettext ³±czy szkielety GNU gettext i Maketext. Jest
-podklas± Locale::Maketext(3) dzia³aj±c± w taki sposób, jak GNU
-gettext. Dzia³a w sposób przezroczysty, zarówno w znaczeniu GNU
-gettexta, jak i Maketexta. W efekcie mo¿na cieszyæ siê zaletami ich
-obu i pozbyæ ich problemów.
+%description -l pl.UTF-8
+Locale::Maketext::Gettext Å‚Ä…czy szkielety GNU gettext i Maketext. Jest
+podklasÄ… Locale::Maketext(3) dziaÅ‚ajÄ…cÄ… w taki sposÃ³b, jak GNU
+gettext. DziaÅ‚a w sposÃ³b przezroczysty, zarÃ³wno w znaczeniu GNU
+gettexta, jak i Maketexta. W efekcie moÅ¼na cieszyÄ‡ siÄ™ zaletami ich
+obu i pozbyÄ‡ ich problemÃ³w.
 
-Pracê zaczyna siê jak w zwyk³ym projekcie lokalizacji GNU gettexta:
-pracuje na plikach PO z pomoc± t³umaczy, recenzentów i Emacsa.
-Nastêpnie zamienia je na pliki MO przy u¿yciu msgfmt, kopiuje do
-odpowiednich katalogów lokalizacji, takich jak
+PracÄ™ zaczyna siÄ™ jak w zwykÅ‚ym projekcie lokalizacji GNU gettexta:
+pracuje na plikach PO z pomocÄ… tÅ‚umaczy, recenzentÃ³w i Emacsa.
+NastÄ™pnie zamienia je na pliki MO przy uÅ¼yciu msgfmt, kopiuje do
+odpowiednich katalogÃ³w lokalizacji, takich jak
 /usr/share/locale/de/LC_MESSAGES/myapp.mo.
 
-Nastêpnie tworzy siê klasê lokalizacji Maketexta z klas± podstawow±
-zmienion± z Locale::Maketext(3) na Locale::Maketext::Gettext. To
+NastÄ™pnie tworzy siÄ™ klasÄ™ lokalizacji Maketexta z klasÄ… podstawowÄ…
+zmienionÄ… z Locale::Maketext(3) na Locale::Maketext::Gettext. To
 wszystko.
 
 %prep
