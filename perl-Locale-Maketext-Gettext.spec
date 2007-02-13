@@ -6,7 +6,7 @@
 %define	pdir	Locale
 %define	pnam	Maketext-Gettext
 Summary:	Locale::Maketext::Gettext - Joins the gettext and Maketext frameworks
-Summary(pl.UTF-8):   Locale::Maketext::Gettext - łączenie szkieletów gettext i Maketext
+Summary(pl.UTF-8):	Locale::Maketext::Gettext - łączenie szkieletów gettext i Maketext
 Name:		perl-Locale-Maketext-Gettext
 Version:	1.17
 Release:	1
