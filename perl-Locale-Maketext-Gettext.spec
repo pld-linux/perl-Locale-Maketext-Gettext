@@ -8,13 +8,13 @@
 Summary:	Locale::Maketext::Gettext - Joins the gettext and Maketext frameworks
 Summary(pl.UTF-8):	Locale::Maketext::Gettext - łączenie szkieletów gettext i Maketext
 Name:		perl-Locale-Maketext-Gettext
-Version:	1.22
+Version:	1.24
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	322e4d4726aa7f36f1c3f12696ebb873
+# Source0-md5:	6527a11d1dac6c016cc3b6d1265b4507
 URL:		http://search.cpan.org/dist/Locale-Maketext-Gettext/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
