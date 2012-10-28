@@ -13,7 +13,7 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Locale/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a5fd46056d0c7bcf4781dc922451a82c
 URL:		http://search.cpan.org/dist/Locale-Maketext-Gettext/
 BuildRequires:	perl-devel >= 1:5.8.0
@@ -77,7 +77,8 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc BUGS Changes README
-%attr(755,root,root) %{_bindir}/*
-%{perl_vendorlib}/Locale/Maketext/*.pm
+%attr(755,root,root) %{_bindir}/maketext
+%{perl_vendorlib}/Locale/Maketext/Gettext.pm
 %{perl_vendorlib}/Locale/Maketext/Gettext
-%{_mandir}/man[13]/*
+%{_mandir}/man1/maketext.1p*
+%{_mandir}/man3/Locale::Maketext::Gettext*.3pm*
