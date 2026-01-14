@@ -8,7 +8,7 @@ Summary:	Locale::Maketext::Gettext - Joins the gettext and Maketext frameworks
 Summary(pl.UTF-8):	Locale::Maketext::Gettext - łączenie szkieletów gettext i Maketext
 Name:		perl-Locale-Maketext-Gettext
 Version:	1.28
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
